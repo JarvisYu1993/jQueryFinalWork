@@ -1,0 +1,267 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.top_navbar{
+    display:flex;
+    justify-content: flex-end;
+    background: #f6f6f6;
+}
+
+.top_navbar ul{
+    display: flex;
+    margin-right: 10px;
+}
+.top_navbar a{
+    display: flex;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.top_navbar img{
+    padding-right: 5px;
+}
+.fb span{
+    border-right:1px solid gray;
+    padding-right:12px;
+}
+#fbIcon{
+    color:#4460a0;
+}
+#twitterIcon{
+    color:#00aaec;
+}
+
+
+
+.bottom_navbar{
+    margin:2px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:0px 2px 5px rgba(0, 0, 0, 0.16);
+
+}
+
+.bottom_navbar a{
+    display:block;
+}
+
+
+.menu{
+    list-style:none;  
+    display:flex;
+}
+
+
+
+.btn_link a{
+    text-decoration: none;
+    color:#00cc99;
+    display: block;
+    padding-top: 17px;
+    padding-right: 21px;
+    padding-left: 21px;
+    padding-bottom: 17px;
+}
+  
+.btn_link a:hover{
+    border-bottom: 2px solid ;
+}
+.banner a{
+    background-image: url(https://upload.cc/i1/2020/04/15/h0FBqW.png);
+    width: 1002px;
+    height: 346px;
+    display:block;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+.banner span{
+color: #fff;
+font-size: 36px;
+justify-self: baseline;
+line-height: 1.4;
+padding:20px;
+background: rgba(0, 0, 0, 0.15);
+
+}
+
+.course{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    margin-top:62px;
+    margin-bottom: 62px;
+    
+    
+}
+.course-items{
+   
+    padding-top: 29px;
+    padding-bottom: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width:300px;
+    border-radius: 5px;
+    box-shadow:1px 3px 3px rgba(0, 0, 0, 0.16);
+ 
+
+}
+.course-items h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom:15px;
+}
+.course-items p{
+    font-size: 17px;
+    line-height: 1.5;
+    letter-spacing:3px;
+}
+
+.content h2{
+    text-align: center;
+    font-size: 30px;
+}
+.compare{
+    margin: 30px auto 70px auto; 
+}
+.compare thead{
+    background:#f7f7f7;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #dddddd;
+}
+.compare td{
+    padding: 10px;
+    padding-left: 24px;
+    padding-right: 107px;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #dddddd;
+}
+.point{
+    color:#00a67d;
+}
+.message{
+    background:linear-gradient(#00644b, #009872);
+    color:white;
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.message h2{
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 33px;
+}
+
+form{
+   display: flex;
+}
+.ms-1{
+    margin:20px 50px;
+}
+#textarea{
+    border-radius:5px;
+    width:400px;
+    height:280px;
+}
+
+.ms-2{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    text-align:left;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.box{
+    width:460px;
+    padding:10px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.btn{
+    width:70px;
+    color: #fff;
+    margin-top:30px;
+    background: #01CC97;
+    border-style: none;
+    border-radius: 5px;
+    padding:10px 20px;
+    align-self: flex-end;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px 20px 50px 20px;
+}
+
+.footer img{
+    display:block;
+}
+
+.contact p{
+    line-height: 1.5;
+    font-weight: 400;
+}
+.contact p span{
+    color:#e12d80;
+}
+
+
+
+
