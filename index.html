@@ -29,7 +29,7 @@
     </ul>
 </nav>
 <nav class="bottom_navbar">
-    <a href="#"><img src="images/logo.png"  alt="logo"></a>
+    <h1><a href="#">Hex School</a></h1>
     <ul class="menu">
     <li class="btn_link"><a href="#">首頁</a></li>
     <li class="btn_link"><a href="#">產品介紹</a></li>
@@ -41,27 +41,29 @@
     <a href="#"><span>六角學院<br>讓您奠定良好的前端基礎</span></a>
 </div>
 <div class="content">
-    <div class="course">
-        <div class="course-items">
+    <ul class="course">
+        <li class="course-items">
             <img src="images/html.png" alt="html5">
             <h2>Html 5 基礎教學</h2>
             <p>主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
-        </div>
-        <div class="course-items">
+        </li>
+        <li class="course-items">
             <img src="images/rwd.png" alt="響應式網站">
             <h2>響應式網站設計</h2>
             <p>響應式網站設計 (Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
-        </div>
-        <div class="course-items">
+        </li>
+        <li class="course-items">
             <img src="images/jQuery.png" alt="jQuery">
             <h2>jQuery 實戰教學</h2>
             <p>本課程有以下特色</p>
-            <p>．瞭解變數的使用方法</p>
-            <p>．學習並操作DOM</p>
-            <p>．學習基本數學運算方法</p>
-            <p>．套件的操作及運用</p>
-        </div>    
-    </div>
+            <ul>
+            <li>瞭解變數的使用方法</li>
+            <li>學習並操作DOM</li>
+            <li>學習基本數學運算方法</li>
+            <li>套件的操作及運用</li>
+            </ul>
+        </li>    
+    </ul>
     <h2>線上及實體課程的差異</h2>
         
             <table class="compare">
@@ -115,10 +117,10 @@
 <div class="message">
     <h2>對我們課程有興趣嗎？<br>歡迎留下您的資料</h2>
     <form action="post">
-        <div class="ms-1">
-        <textarea name="文字內容" id="textarea" cols="100" rows="16"></textarea>
+        <div class="ms-textarea">
+        <textarea name="文字內容" class="textarea" cols="100" rows="16"></textarea>
         </div>
-        <div class="ms-2">
+        <div class="ms-textarea2">
         <label for="name">姓名</label>
         <input type="text" class="box"id="name" name="姓名">
         <label for="telephone">電話</label>
